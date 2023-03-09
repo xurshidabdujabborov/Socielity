@@ -1,0 +1,37 @@
+.Platform {
+  width: 100%;
+  margin-top: 120px;
+}
+.Platform .text {
+  text-align: center;
+}
+.Platform .text p.text {
+  margin-top: 25px;
+}
+.Platform .box {
+  margin: 50px 0px;
+  background: #ffffff;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 5px 5px 5px 2px gray;
+  padding: 15px 5px;
+}
+.Platform .box img {
+  width: 150px;
+  height: 100px;
+  margin-left: 18%;
+}
+.Platform .box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #4579cb;
+  margin-top: 10px;
+}
+.Platform .box p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #666666;
+  margin-top: 10px;
+}

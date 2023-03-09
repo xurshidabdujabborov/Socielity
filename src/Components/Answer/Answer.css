@@ -1,0 +1,44 @@
+.Answer {
+  width: 100%;
+  margin-top: 100px;
+}
+.Answer .text {
+  text-align: center;
+}
+.Answer .text p.text {
+  margin-top: 25px;
+}
+.Answer .left{
+    text-align: left;
+  margin-top: 50px;
+}
+.Answer .left .css-1elwnq4-MuiPaper-root-MuiAccordion-root{
+    width: 700px;
+}
+.Answer .right{
+    text-align: left;
+    margin-top: 50px;
+}
+.Answer .right .css-1elwnq4-MuiPaper-root-MuiAccordion-root{
+    width: 700px;
+}
+.Answer .right .css-ahj2mt-MuiTypography-root{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #8C8C8C;    
+}
+.Answer .left .css-ahj2mt-MuiTypography-root{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #8C8C8C;    
+}
+@media(max-width: 900px){
+  .Answer .right .css-1elwnq4-MuiPaper-root-MuiAccordion-root{
+    width: 100%;
+  }
+  .Answer .left .css-1elwnq4-MuiPaper-root-MuiAccordion-root{
+    width: 100%;
+  }
+}

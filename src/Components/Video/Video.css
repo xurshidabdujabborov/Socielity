@@ -1,0 +1,33 @@
+.video {
+  width: 100%;
+  margin-top: 120px;
+}
+.video .box {
+    text-align: center;
+  position: relative;
+}
+.video .box .text {
+  text-align: center;
+}
+.video .box .videoPlayerIcons {
+  position: absolute;
+  top: 45%;
+  left: 48%;
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  border-radius: 50%;
+  background: #e6e6e6;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video .box .videoPlayerIcons .css-i4bv87-MuiSvgIcon-root {
+  border-radius: 10px;
+  font-size: 60px;
+}
+.video .box video {
+  width: 60%;
+  margin-top: 50px;
+}

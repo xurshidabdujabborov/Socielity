@@ -1,0 +1,32 @@
+.Work {
+  width: 100%;
+  margin-top: 120px;
+}
+.Work .text {
+  text-align: center;
+}
+.Work .text p.text {
+  margin-top: 25px;
+}
+.Work .box {
+  margin: 0px 30px;
+  margin-top: 50px;
+  padding: 50px 15px;
+  text-align: center;
+  background: #f6f7fd;
+  border-radius: 8px;
+}
+.Work .box:hover{
+    cursor: pointer;
+    transition: .30s;
+    background-color: #4579CB;
+    transform: scale(1.10);
+}
+.Work .box h4{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: black;
+    margin-top: 6px;
+    margin-bottom: 12px;
+}

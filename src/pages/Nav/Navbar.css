@@ -1,0 +1,36 @@
+nav {
+  width: 100%;
+  padding: 35px 0px;
+}
+nav .img {
+  text-align: left;
+}
+nav ul {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+nav ul li {
+  margin: 0px 30px;
+}
+nav ul li a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #666666;
+}
+@media (max-width: 900px) {
+  nav ul {
+    width: 100%;
+    margin-top: 30px;
+    flex-direction: column;
+  }
+  nav ul li {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  nav ul li a.Bgblue {
+    margin-top: 40px;
+    width: 100%;
+  }
+}

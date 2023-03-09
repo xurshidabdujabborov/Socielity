@@ -1,0 +1,9 @@
+.Carusel {
+  width: 100%;
+}
+.Carusel .text {
+  text-align: center;
+}
+.Carusel .img {
+  margin-top: 50px;
+}
